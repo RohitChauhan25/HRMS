@@ -1,0 +1,38 @@
+export const Cancel = 'Cancel'
+export const Back = 'Back'
+export const Next = 'Next'
+export const Submit = 'Submit'
+export const Update = 'Update'
+export const AddForm = 'Add Form'
+export const SaveAndContinue = 'Save & Continue'
+export const SaveAsDraft = 'Save as Draft'
+export const Public = 'Make It Public'
+export const Delete = 'Delete'
+export const Reject = 'Reject'
+export const RemotePosition = 'Is this job a remote position (work from home)'
+export const ApprovalTitle = 'Send for approval'
+export const Preview = 'Preview'
+export const Publish = 'Publish Now'
+export const Approval = 'Submit For Approval'
+export const GrantButton = 'Add Grant'
+export const PublishData = 'Publish the Form after approval'
+export const AddEmployee = 'Add Employee'
+export const AddEmployment = 'Add Employment'
+export const AddDepartment = 'Add Department'
+export const ADDQUESTION = 'Add Question'
+export const AddExperience = 'Add Experience'
+export const AddNewField = 'Add New Field'
+export const isPrivate = 'Make it Private'
+export const Assign = 'Assign'
+export const ApplyNow = 'Apply Now'
+export const ApplyForThisJob = 'Apply For This Job'
+export const AddTeamMember = 'Add Team Member'
+export const EditJobOpening = 'Edit Job Opening'
+export const PreviewJob = 'Preview Job'
+export const jobStatus = {
+  draft: 'DRAFT',
+  publish: 'PUBLISHED',
+  closed: 'CLOSED',
+  reject: 'REJECTED',
+}
+export const AddCandidate = 'Add New Candidate'

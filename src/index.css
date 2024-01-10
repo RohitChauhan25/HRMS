@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;200,100,400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  scroll-behavior: smooth;
+  overscroll-behavior: none;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Inter', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type='checkbox'] {
+  accent-color: #1d2e88 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.uploadbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.submitbutton {
+  color: #fff;
+  background-color: #1d2e88 !important;
+}
+.modalbutton {
+  margin-top: 20px;
+}
+.modal_container {
+  overflow-y: hidden;
+}
+
+.timeline_button {
+  height: 56px !important;
+}
+
+.previewmodal {
+  z-index: 5 !important;
+  height: 100vh;
+  overflow: scroll;
+  border-radius: 0px !important;
+  width: 100% !important;
+  display: flex;
+  align-items: flex-end !important;
+  justify-content: end;
+  background: rgba(0, 0, 0, 0.5) !important;
+  /* justify-self: flex-end; */
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  border-radius: 18px;
+  outline: none;
+  z-index: 5;
+  width: 100%;
+  max-width: 650px;
+  margin: 0 auto;
+}
+.candidatemodal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  border-radius: 18px;
+  outline: none;
+  z-index: 5;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.taskdata {
+  margin-top: 20px;
+}
+.username {
+  color: #1d2e88;
+}
+@media (max-width: 1068px) {
+  .modal {
+    position: fixed;
+    max-width: 550px;
+    margin: 0 auto;
+  }
+}
+.timeline_modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+  border-radius: 18px;
+  outline: none;
+  z-index: 5;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-height: 650px) {
+  .timeline_modal {
+    top: 40%;
+  }
+}
+
+.ant-switch.ant-switch-checked {
+  background: #1d2e88 !important;
+}
+
+input[data-autocompleted] {
+  background-color: transparent !important;
+}
+.ReactModal__Overlay {
+  border: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 5;
+  background-color: #00000082 !important;
+  overflow: hidden;
+}
+
+/* .ReactModal__Overlay {
+  transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+.ReactModal__Content.ReactModal__Content--after-open::-webkit-scrollbar {
+  display: none;
+}
+*/
+
+.ReactModal__Body--open {
+  overflow-y: hidden;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0 !important;
+}
+
+.ReactModal__Overlay {
+  transition: all 500ms !important;
+  background: rgba(0, 0, 0, 0.7) !important;
+  z-index: 100;
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+  /* inset: 0 !important; */
+  margin: auto;
+  height: max-content;
+  width: max-content;
+  margin: auto;
+  padding: 0 !important;
+  border-radius: 16px !important;
+  overflow: hidden !important;
+  border: none !important;
+}
+.ant-input {
+  border-color: #b9b9b9 !important;
+  box-shadow: none !important;
+}
+input {
+  border-color: #b9b9b9 !important;
+  box-shadow: none !important;
+}
+.ant-select-dropdown .ant-select-item-option {
+  background: #ffffff !important;
+}
+.ant-select-dropdown .ant-select-item-option-selected {
+  background: #f3f5ff !important;
+}
+.ant-table-thead tr th {
+  background: #f3f5ff !important;
+}
+.ant-table-thead tr th:before {
+  background: transparent !important;
+}
+.ant-pagination .ant-pagination-options {
+  position: absolute;
+  left: 0;
+}
+.ant-select-arrow {
+  color: #1d1d1d !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #1d2e88 !important;
+  border-color: #1d2e88 !important;
+}
+
+.ant-checkbox-checked:after {
+  border-color: #1d2e88 !important;
+}
+.ant-pagination .ant-pagination-item {
+  border: none;
+}
+svg {
+  cursor: pointer;
+}
+.ant-select .ant-select-arrow {
+  right: 10px;
+}
+.ant-select ::-webkit-scrollbar {
+  display: none;
+}
+.react-beautiful-dnd-draggable {
+  transition: transform 0.2s;
+  background-color: red;
+}
+.ant-popover-content {
+  width: 230px !important;
+}
+
+.PriviewModal {
+  position: absolute;
+  right: 0px;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  /* outline: none; */
+}
+.ant-popover-inner {
+  padding: 0 !important;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.deleteIcon > path {
+  fill: #d83232 !important;
+  cursor: pointer;
+}

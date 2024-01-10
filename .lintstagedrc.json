@@ -1,0 +1,1 @@
+{ "precommit": ["--ignore-pattern '!<./src/**/*.{ts,tsx,json}>'", "prettier --write", "npm run lint"] }
